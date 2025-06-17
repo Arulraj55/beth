@@ -10,7 +10,7 @@ const donorRoutes = require('./routes/donor');
 const recipientRoutes = require('./routes/recipient');
 const contactRoutes = require('./routes/contact');
 
-mongoose.connect('mongodb+srv://arulrajjebasingh:BsvCior7VICpS8v5@glc.tvobjtg.mongodb.net/')
+mongoose.connect('mongodb+srv://arulrajjebasingh:BsvCior7VICpS8v5@glc.tvobjtg.mongodb.net/test')
 .then(() => {
   console.log('MongoDB connected');
 }).catch((err) => {
